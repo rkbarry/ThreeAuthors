@@ -1,28 +1,13 @@
 %%
-%% This is file `spbasic.bst',
-%% generated with the docstrip utility.
-%%
-%% The original source files were:
-%%
-%% merlin.mbs  (with options: `ay,nat,seq-lab,vonx,nm-rvx,ed-rev,jnrlst,dt-beg,yr-par,yrp-x,yrpp-xsp,note-yr,jxper,jttl-rm,thtit-a,pgsep-c,num-xser,ser-vol,jnm-x,btit-rm,bt-rm,pre-pub,doi,edparxc,blk-tit,in-col,fin-bare,pp,ed,abr,mth-bare,ord,jabr,xand,eprint,url,url-blk,em-x,nfss,')
-%% ----------------------------------------
-%%
-%%********************************************************************************%%
-%%                                                                                %%
-%% For Springer medical, life sciences, chemistry, geology, engineering and       %%
-%%   computer science publications.                                               %%
-%% For use with the natbib package (see below). Default is author-year citations. %%
-%%   When citations are numbered, please use \usepackage[numbers]{natbib}.        %%
-%% A lack of punctuation is the key feature. Springer-Verlag 2004/10/15           %%
-%% Report bugs and improvements to: Joylene Vette-Guillaume or Frank Holzwarth    %%
-%%                                                                                %%
-%%********************************************************************************%%
-%%
+%% This is file `spbasic.bst', now out of copyright, modified to only provide the first three authors on a paper 
+if there are four or more authors. It will output all authors if there are three or less. 
+
+
 %% Copyright 1994-2004 Patrick W Daly
  % ===============================================================
  % IMPORTANT NOTICE:
- % This bibliographic style (bst) file has been generated from one or
- % more master bibliographic style (mbs) files, listed above.
+ % This bibliographic style (bst) file has been generated from merlin.mbs
+ % bibliographic style (mbs) files.
  %
  % This generated file can be redistributed and/or modified under the terms
  % of the LaTeX Project Public License Distributed from CTAN
