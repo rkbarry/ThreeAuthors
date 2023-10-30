@@ -9,7 +9,7 @@ From inside your .tex file just call this in the normal way:
 
 \usepackage[authoryear]{natbib}
 
-\bibliographystyle{Three_Authors}
+\bibliographystyle{ThreeAuthors}
 
 \begin{document}
 
