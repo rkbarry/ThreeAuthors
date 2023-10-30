@@ -8,9 +8,13 @@ From inside your .tex file just call this in the normal way:
 \documentclass [11pt]{article}
 
 \usepackage[authoryear]{natbib}
+
 \bibliographystyle{Three_Authors}
 
 \begin{document}
+
 \nocite{*}
+
 \bibliography{export-bibtex-2}
+
 \end{document}
